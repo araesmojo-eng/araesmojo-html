@@ -1,0 +1,54 @@
+Keypress Commands
+ - ESC to quit
+ - P to switch polygon rendering
+ - R to switch render mode
+ - S to switch render shapes
+ - Left_Arrow to strafe left
+ - Right_Arrow to strafe right
+ - Up_Arrow to move foward
+ - Down_Arrow to move back
+ - Mouse to look
+ - Hold Left Shift + Mouse Scroll to change ambient intensity
+ - Hold Left Alt + Mouse Scroll to change diffuse intensity
+ - Hold Left Cntrl + Mouse Scroll to change specular intensity
+ - Hold Cntrl + Shift + Mouse Scroll to change specular highlight sharpness / shinyness
+ - W to switch from constant to varying materials per object
+ - C to switch the type of light
+ - E to switch the scene and lighting type in the multi-light rendering mode
+ - F to switch text soft edges
+ - T to switch text outlining
+ - G to switch text glow
+ - Hold V + Mouse Scroll to change text edge distance (font thickness)
+ - Hold B + Mouse Scroll to change text edge alias distance (font fuzziness or blur)
+ - Hold N + Mouse Scroll to change outline distance
+ - Hold M + Mouse Scroll to change outline thickness
+ - Hold H + Mouse Scroll to change glow distance
+ - Hold J + Mouse Scroll to change glow alias distance glow fuzziness or blur)
+ - O to activate post processing with 3x3, 5x5, and two-step separated 9x9 kernels
+ - I to switch between post proccessing modes (0 none, 1 invert, 2 grayscale, 3 3x3 kernels, 4 5x5 kernels, 5 two-step 9x9 kernels)
+ - K to switch between 3x3, 5x5, and 9x9 kernels
+    - 3x3 kernels (0 unsharp mask, 1 sharpen, 2 emboss, 3 gaussian blur, 4 box blur, 5 edge detect)
+    - 5x5 kernels (0 gaussian blur, 1 unsharp mask)
+    - 9x9 kernels (0 gaussian blur, 1 lapacian blur, 2 poisson blur, 3 rayleigh blur, 4 spherical blur)
+ - Hold A + Mouse Scroll (while 9x9 kernel 0, 1, or 2) to adjust kernel amplitude (kernel bell curve intensity or height)
+ - Hold U + Mouse Scroll (while 9x9 kernel 0, 1, or 2) to adjust kernel mu (kernel bell curve center)
+ - Hold L + Mouse Scroll (while 9x9 kernel 0, 1, or 2) to adjust kernel sigma (kernel bell curve width)
+ - Q to render particles
+ - Space to draw multiple instances of geometry
+ - Enter to draw vertex normals
+ - Y to shift object normals away from surface (inflate objects like balloons)
+ - Z to switch blinn-phong specular lighting and phong lighting
+ - X to view point shadow depth maps as skybox cubemap (lights 1-4)
+ - Hold , + Mouse Scroll to adjust exposure
+ - Hold . + Mouse Scroll to adjust gamma correction
+ - / to switch rendering to deferred shading (only multi-light example)
+ - ' to switch between deferred shading buffer layers (input files rendering during first deferred shading render before lighting)
+ - Hold \ + Mouse Scroll to adjust skybox level of detail (switch to various skyboxes with X)
+ - Hold ` (grave accent) + Mouse Scroll to adjust hue of colorized spheres (start red colored)
+ - * (keypad) to switch between multiple point light sources (and shadow maps)
+ - + (keypad) to allow point lights to move
+ - / (keypad) to draw bounding frustrums for light sources
+ - Hold Right Shift + Mouse Scroll to change SDF font color
+ - Hold Right Alt + Mouse Scroll to change SDF font outline color
+ - Hold Right Cntrl + Mouse Scroll to change SDF font glow color
+ - - (subtract, keypad) to change point shadow method
